@@ -1,0 +1,100 @@
+.imagens {
+    height: 338px;
+    width: 710px;
+}
+
+/* Style para os conteúdos dos preços */
+.style-price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    font-style: normal;
+    color: #333333;
+}
+
+.margin-package {
+    margin: 30px 0;
+}
+
+.border-style-product {
+    box-shadow: 0px 0px 0px 5px orange inset;
+    height: 338px;
+    padding: 20px;
+}
+
+.icon-style-size {
+    vertical-align: text-bottom;
+    font-size: 18px;
+    color: #fff;
+    margin: 3px 4px 1px 0;
+}
+
+.btn-txt-size {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.product__info__detailed {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.style-heading {
+    color: #015F9D;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+.mt_infos_date {
+    margin-top: 15px;
+}
+
+@media (max-width: 1024px){
+    .icon-style-size {
+        font-size: 14px;
+    }
+    .btn-txt-size {
+        font-size: 14px;
+    }
+    .border-style-product {
+        padding: 5px 20px 5px 20px;
+    }
+    .mt_infos_date {
+        margin-top: 10px;
+    }
+    p {
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 768px){
+    .icon-style-size {
+        font-size: 18px;
+    }
+    .btn-txt-size {
+        font-size: 18px;
+    }
+    .border-style-product {
+        padding: 20px;
+    }
+    .mt_infos_date {
+        margin-top: 20px;
+    }
+    p {
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 320px){
+    .mt_infos_date {
+        margin-top: 18px;
+    }
+    p {
+        margin-bottom: 12px;
+    }
+}
+

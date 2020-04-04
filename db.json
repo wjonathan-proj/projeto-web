@@ -1,0 +1,330 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "ADMIN",
+      "email": "admin@brqtravel.com",
+      "cpf": "12445678902",
+      "rg": "1234567890",
+      "phone": "11856729506",
+      "admin": true
+    },
+    {
+      "name": "Mirela Sato",
+      "email": "mirelasato@brq.com",
+      "cpf": "32131231231",
+      "rg": "333333333",
+      "phone": "22222222222",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "name": "Anderson Jovani Souza Santos",
+      "email": "anderson.jovani9522@gmail.com",
+      "cpf": "43686874857",
+      "rg": "455153322",
+      "telefone": "11947328907",
+      "id": 3,
+      "admin": false
+    },
+    {
+      "name": "Anderson Jovani Souza Santos",
+      "email": "andersonjovani@brq.com",
+      "cpf": "43686874857",
+      "rg": "455153322",
+      "telefone": "11947328907",
+      "id": 4,
+      "admin": false
+    },
+    {
+      "name": "william",
+      "email": "wilshin@teste.com",
+      "cpf": "32951808810",
+      "rg": "428613858",
+      "phone": "11988444763",
+      "id": 5,
+      "admin": false
+    },
+    {
+      "name": "william",
+      "email": "wilshin@yahoo.com.br",
+      "cpf": "32951808810",
+      "rg": "428613858",
+      "phone": "11988444763",
+      "id": 6,
+      "admin": false
+    },
+    {
+      "name": "kamila bezerra da silva",
+      "email": "kamila@brq.com",
+      "cpf": "43805979894",
+      "rg": "123456789",
+      "phone": "1140762744",
+      "admin": false,
+      "id": 8
+    },
+    {
+      "name": "Rodrigo Lopes",
+      "email": "rjlopes@brq.com",
+      "cpf": "99999999910",
+      "rg": "999999999",
+      "phone": "99999999999",
+      "admin": false,
+      "id": 7
+    }
+  ],
+  "destinos": [
+    {
+      "id": 1,
+      "titulo": "Arraial do Cabo",
+      "descricao": "A fama de “Caribe Brasileiro” está estampada na placa oficial de boas-vindas da cidade de Arraial do Cabo. Ela prepara o coração dos turistas para o inevitável susto ao avistar a primeira praia à beira da estrada. Com acesso fácil, preços baixos, dias ensolarados e praias deslumbrantes, Arraial é um dos melhores destinos do Brasil para quem deseja curtir um descanso com pé na areia. Prepare o seu coração para conhecer uma das mais deslumbrantes praias do Brasil.",
+      "destaque": true,
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "valor": 500,
+      "vagas": 45,
+      "feriado": 1,
+      "tipo": 1,
+      "tiponome": "hospedagem",
+      "imagens": [
+        {
+          "url": "assets/travel-packages/arraial-do-cabo/image1.jpg"
+        },
+        {
+          "url": "assets/travel-packages/arraial-do-cabo/image2.jpg"
+        },
+        {
+          "url": "assets/travel-packages/arraial-do-cabo/image3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Campos do Jordão",
+      "descricao": "Campos do Jordão é um município na Serra da Mantiqueira, no Brasil, e faz parte do estado de São Paulo.",
+      "destaque": true,
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "anunciante": "BRQ-Travel",
+      "valor": 160,
+      "vagas": 45,
+      "feriado": "2",
+      "tipo": 1,
+      "tiponome": "hospedagem",
+      "imagens-banner": "assets/img/capa-destinos.jpg",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-packages/campos-do-jordao/image1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "assets/travel-packages/campos-do-jordao/image2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Foz do Iguaçu",
+      "descricao": "Visite a belíssima tríplice fronteira e fique maravilhado com as belezas naturais e cultura dessa região. Composta pelas cidades de Foz do Iguaçu no Brasil, Puerto Iguazú na Argentina e Ciudad del Este no Paraguai. Pra você que nunca saiu do país, essa é a sua chance!.",
+      "destaque": true,
+      "anunciante": "BRQ-Travel",
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "valor": 690,
+      "vagas": 45,
+      "feriado": "",
+      "tipo": 1,
+      "tiponome": "hospedagem",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-packages/foz/image1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "assets/travel-packages/foz/image2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "assets/travel-packages/foz/image3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "São Roque",
+      "descricao": "Nesse maravilhoso passeio, iremos conhecer algumas vinícolas que fazem parte da famosa Rota do Vinho de São Roque. Teremos a presença de uma guia local contando algumas curiosidades sobre a cidade e as vinícolas. Não fique fora dessa.",
+      "destaque": false,
+      "anunciante": "BRQ-Travel",
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "valor": 200,
+      "vagas": 45,
+      "feriado": "",
+      "tipo": 1,
+      "tiponome": "hospedagem",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-packages/sao-roque/image1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "assets/travel-packages/sao-roque/image2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "assets/travel-packages/sao-roque/image3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Capitólio",
+      "descricao": "Capitólio se tornou um importante destino turístico de Minas Gerais, muito procurado nos últimos anos por conta de suas belas cachoeiras e rios de águas transparentes. O Cânion de Furnas é a principal atração, com suas paredes de pedra invadidas pelas águas esverdeadas do Lago de Furnas, formado pela represa da Usina Hidrelétrica de Furnas.",
+      "destaque": false,
+      "anunciante": "BRQ-Travel",
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "valor": 200,
+      "vagas": 45,
+      "feriado": "",
+      "tipo": 1,
+      "tiponome": "hospedagem",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-packages/capitolio/image1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "assets/travel-packages/capitolio/image2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "assets/travel-packages/capitolio/image3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Ilhabela",
+      "descricao": "Ilhabela é um dos únicos municípios–arquipélagos marinhos brasileiros e é localizado no litoral norte do estado de São Paulo, microrregião de São Sebastião.",
+      "destaque": false,
+      "anunciante": "BRQ-Travel",
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "valor": 120,
+      "vagas": 45,
+      "feriado": "",
+      "tipo": 2,
+      "tiponome": "bate e volta",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-packages/ilhabela/image1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "assets/travel-packages/ilhabela/image2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "assets/travel-packages/ilhabela/image3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Monte Verde",
+      "descricao": "Bora passar um dia na Suiça Mineira, degustando: cachaças 🍸, queijos 🧀, doces diversos 🍭, saboreando um chocolate suiço 🍫.",
+      "destaque": false,
+      "anunciante": "BRQ-Travel",
+      "data": "2020-01-29T03:00:00.000Z",
+      "retorno": "2020-01-29T03:00:00.000Z",
+      "embarque": "Barra Funda",
+      "valor": 120,
+      "vagas": 45,
+      "feriado": "",
+      "tipo": 2,
+      "tiponome": "bate e volta",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-packages/monte-verde/image1.jpg"
+        },
+        {
+          "id": 2,
+          "url": "assets/travel-packages/monte-verde/image2.jpg"
+        },
+        {
+          "id": 3,
+          "url": "assets/travel-packages/monte-verde/image3.jpg"
+        }
+      ]
+    },
+    {
+      "titulo": "PUTA QUE PARIU",
+      "data": "2020-04-15T03:00:00.000Z",
+      "retorno": "2020-04-16T03:00:00.000Z",
+      "embarque": "VAI PRA MERDA",
+      "valor": 111,
+      "vagas": 10,
+      "tipo": 2,
+      "descricao": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "id": 8
+    }
+  ],
+  "tipoViagem": [
+    {
+      "id": 1,
+      "nome": "Pacotes com Hospedagem"
+    },
+    {
+      "id": 2,
+      "nome": "Pacotes de Bate e volta"
+    }
+  ],
+  "feriado": [
+    {
+      "id": 1,
+      "nome": "Carnaval",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-banner/banner1.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Pascoa",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-banner/banner2.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Tiradentes",
+      "imagens": [
+        {
+          "id": 1,
+          "url": "assets/travel-banner/banner3.png"
+        }
+      ]
+    }
+  ],
+  "vendas": [
+    {}
+  ]
+}

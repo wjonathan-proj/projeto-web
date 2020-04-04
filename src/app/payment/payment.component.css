@@ -1,0 +1,51 @@
+h5 {
+    margin-top: 5px;
+}
+
+p {
+    text-align: justify
+}
+
+.mat-form-field{
+    width:100% !important;
+    /* display: block !important; */
+}
+
+.bottom-label {
+    padding-bottom: 20px;
+}
+#creditcardicon {
+    position:absolute;
+    bottom:2px;
+    right:8px;
+    /* width:24px; */
+    height:24px;
+}
+
+.TxtError{
+    color: red;
+}
+
+.border-style-card {
+    padding: 12px;
+  }
+
+.margin-payment {
+    margin: 30px 0;
+}
+
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+
+}

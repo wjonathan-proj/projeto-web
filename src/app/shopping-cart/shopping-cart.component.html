@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="card shopping-cart margin-shoppingcart">
+           <div class="card-header bg-dark text-light" *ngIf="!isEmpty; else vazio">
+               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+               Carrinho de Compra
+           </div>
+           <ng-template #vazio>
+              <div class="container cart-empty">
+                <img src="../../assets/icon-empty-cart.png" alt="imagem do card">
+                <p class="lead">Olá, seu carrinho está vazio.</p>
+                <p>Adicione algo para me fazer feliz :)</p>
+              </div>
+           </ng-template>
+           <div *ngIf="!isEmpty">
+            <div class="card-body" *ngFor="let oferta of CartTotal; let q = index">
+                    <!-- PRODUCT -->
+                    <div class="row">
+                        <div class="col-12 col-md-2 col-sm-12 text-center">
+                          <img class="style-img" [src]="oferta.product.imagens[0].url" alt="imagem do card">
+                        </div>
+                        <div class="col-12 col-md-6 col-sm-12 text-sm-center text-md-left">
+                            <h4 class="product-name"><strong>{{ oferta.product.titulo }}</strong></h4>
+                        </div>
+                        <div class="col-12 col-md-4 col-sm-12 text-sm-center  text-md-right row">
+                            <div class="col-6 col-md-6 col-sm-3 text-md-right" style="padding-top: 5px">
+                                <h6><strong>{{ oferta.product.valor * oferta.quantity | currency: 'BRL': true }}<span class="text-muted">x</span></strong></h6>
+                            </div>
+                            <div class="col-4 col-md-4 col-sm-4">
+                                <div class="quantity">
+                                  <input type="button" value="+" class="plus" (click)="incrementar(oferta.product)" >
+                                  <input [value]="oferta.quantity" class="qty" size="4" readonly>
+                                  <input type="button" value="-" class="minus" (click)="decrementar(oferta.product)" [disabled]="oferta.quantity == 1 ? true : false">
+                                </div>
+                            </div>
+                            <div class="col-2 col-md-2 col-sm-2 text-right">
+                              <button type="button" (click)="remove(oferta.product.id)" class="btn btn-outline-danger btn-xs style-button-trash">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="card-footer">
+                <div class="pull-right" style="margin: 10px">
+                    <a href="" class="btn btn-success pull-right" routerLink= '/pagamento'>Checkout</a>
+                    <div class="pull-right" style="margin: 5px">
+                      Valor Total: <b>{{  total | currency: 'BRL': true }}</b>
+                    </div>
+                </div>
+            </div>
+          </div>
+  </div>
+</div>

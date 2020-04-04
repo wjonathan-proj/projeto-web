@@ -1,0 +1,77 @@
+h1 {
+    padding: 10px 0 10px 0;
+}
+
+li {
+    display: inline-block;
+    padding-right: 4px;
+}
+
+.btn-style-travel {
+    background-color: #ffffff;
+    color: #0069d9;
+    font-weight: bold;
+
+}
+
+.btn-style-group-travel {
+    text-align: center;
+}
+
+.active, .btn:hover {
+    background-color: #0069d9 !important;
+    color: #ffffff;
+}
+
+.btn-style-margin-hospedagem {
+    /* margin: 10px 23px 0 23px;
+    padding: 8px 74px 8px 74px; */
+    border-radius: 1.3rem;
+    border-color: #0069d9;
+    color: #0069d9;
+    margin: 0 5px 5px 0;
+    width: 290px;
+}
+
+.btn-style-margin-batevolta {
+    /* margin: 10px 23px 0 23px;
+    padding: 8px 87px 8px 87px; */
+    border-radius: 1.3rem;
+    border-color: #0069d9;
+    color: #0069d9;
+    width: 290px;
+}
+
+div.a-style-align-center {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.material-icons {
+    font-size: 44px!important;
+}
+
+a:hover {
+    color: #0069d9;
+}
+
+.a-style-font {
+    color: #000;
+    cursor: pointer;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+.section-style-align-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+
+

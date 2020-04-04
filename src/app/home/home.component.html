@@ -1,0 +1,22 @@
+<carousel class="size-carousel .col-lg-12">
+  <slide class="slide" *ngFor="let carrossel of feriadoImg">
+    <img [src]="carrossel.imagens[0].url" class="img-fluid" alt="first slide">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+  </slide>
+</carousel>
+<div class="container">
+  <!-- <div class="secao">
+    <h3 class="text-center">Destaques do dia</h3>
+  </div> -->
+<!--  carrosel  -->
+  <div class="container">
+    <div class="secao">
+      <h2 class="text-center">Aproveite as ofertas que separamos para você</h2>
+    </div>
+    <section class="align-cards-home">
+      <app-card-travel *ngFor="let destinos of destaqueCardsDisplay" [destino]="destinos">
+      </app-card-travel> <!-- herda a class card -->
+    </section>
+  </div>
+</div>
