@@ -28,7 +28,7 @@
     "bootstrap": "^4.4.1",
     "cc-validate": "^2.0.5",
     "core-util-is": "^1.0.2",
-    "firebase": "^7.6.2",
+    "firebase": "^11.2.0",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
     "material-design-icons": "^3.0.1",
